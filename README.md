@@ -39,13 +39,14 @@ Dive into JOINs, GROUP BY, HAVING, subqueries, and string functions.
 
 ### **Section 3: Advanced SQL**  
 Explore complex SQL topics including window functions, PIVOT, and query optimization.
-- `Window_Functions(S3).sql` — Using window functions for advanced data analysis.
-- `PIVOT_in_MYSQL(S3).sql` — Pivoting data in SQL.
-- `UNPIVOT_in_MYSQL(S3).sql` — Unpivoting data in SQL.
-- `Indexes(S3).sql` — Creating and using indexes for optimization.
-- `Query_Optimization_Techniques(S3).sql` — Tips for optimizing SQL queries.
-- `Stored_Procedures(S3).sql` — Creating and using stored procedures.
-- `View(S3).sql` — Working with SQL views.
+- `COMMON_TABLE_EXPRESSION_(CTE)(S3).sql` — *Using Common Table Expressions (CTE) for structuring complex queries.*
+- `INDEX(S3).sql` — *Creating and using indexes for query optimization.*
+- `PIVOT_in_MYSQL(S3).sql` — *Working with PIVOT to transform row data into columns.*
+- `Query_optimization_techniques(S3).sql` — *Techniques for optimizing SQL query performance.*
+- `Stored_Procedures(S3).sql` — *Creating and using stored procedures.*
+- `UNPIVOT_in_MYSQL(S3).sql` — *Reversing PIVOT operation with UNPIVOT to transform columns back to rows.*
+- `View(S3).sql` — *Creating views to simplify complex queries.*
+- `WINDOW_Functions(S3).sql` — *Using window functions for advanced data analysis.*
 
 ### **Section 4: Employee Management Project**  
 This section demonstrates the full development of an **Employee Management Database**. The project includes database creation, normalization checks, data manipulation practices, and full-featured database management.
