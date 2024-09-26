@@ -57,11 +57,11 @@ This section demonstrates the full development of an **Employee Management Datab
 
 ### **Section 5: Final Projects**  
 Real-world projects, including data preparation for machine learning.
-- `Final_Project_Script_Part_1(S1).sql` — Part 1 of the final project.
-- `Final_Project_Script_Part_2(S2).sql` — Part 2 of the final project.
-- `Final_Project_Script_Part_3(S3).sql` — Part 3 of the final project.
-- `Final_Project_Script_Data_Prep_for_ML(S4).sql` — Data preparation for machine learning.
-
+- `Final_Project_Script_part_1(S1).sql` — *First part of the final project scripts, involving core SQL concepts.*
+- `Final_Project_Script_part_2(S2).sql` — *Second part of the final project, including intermediate SQL techniques.*
+- `Final_Project_Script_part_3(S3).sql` — *Third part of the project, using advanced SQL concepts.*
+- `Final_Project_Script_data_prep_for_ML(S4).sql` — *Final part focusing on preparing the data for machine learning.*
+Теперь этот раздел будет полностью соответствовать структуре репозитория. Обнови README
 ---
 
 ### **ER Diagrams:**
@@ -74,15 +74,18 @@ You can open these diagrams using MySQL Workbench to view the structure and rela
 
 ---
 
-### **ADVANCED SQL SCRIPTS (ORIGINAL):**
-This folder contains additional advanced SQL scripts that demonstrate complex concepts and techniques. These scripts are organized by theme and can be useful for deepening your understanding of SQL:
-- **COMMON TABLE EXPRESSION (CTE).sql** — Demonstrates the use of CTEs in SQL.
-- **Re-answering_Business_Questions.sql** — Answering complex business questions using SQL.
-- **ReDDL_DML_TCL_DQL_DCL.sql** — Covers DDL, DML, TCL, and DCL practices.
-- **Understanding_JOINS.sql** — Explains various types of SQL `JOINs` with examples.
-- **Window_CTE_Views_StoredProc.sql** — A comprehensive script combining window functions, CTEs, views, and stored procedures.
-
----
+### **Section 6: Advanced SQL Scripts (Original)**  
+A collection of advanced SQL scripts covering a wide range of topics for deep understanding and practice.
+- `GROUPBY_subquery_mathfunc_string.sql` — *Scripts focusing on subqueries, mathematical functions, and string manipulation.*
+- `Indexes.sql` — *Scripts demonstrating how to create and manage indexes for performance optimization.*
+- `Pivot_Unpivot.sql` — *Learn to pivot and unpivot data for better data organization and analysis.*
+- `Query_optimization.sql` — *Tips and techniques for optimizing complex queries.*
+- `Re_answering_business_questions.sql` — *Answering complex business questions using SQL.*
+- `Regex_QueryFlow.sql` — *Demonstrating regular expression techniques within SQL queries.*
+- `Understanding_JOINS.sql` — *Deep dive into SQL JOINs and their practical use cases.*
+- `Window_CTE_Views_StoredProc.sql` — *Examples covering Window Functions, Common Table Expressions (CTE), Views, and Stored Procedures.*
+- `classicmodels.sql` — *Dataset used in examples and practice sessions.*
+- `project.sql` — *Full project script combining multiple advanced SQL concepts.*
 
 ## 🛠️ Setup & Installation:
 1. Clone this repository:  
