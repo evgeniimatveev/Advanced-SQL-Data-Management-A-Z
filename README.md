@@ -22,8 +22,10 @@
 
 ### **Section 1: SQL Basics**  
 Learn the basics of SQL including SELECT, WHERE, and basic filtering.
-- `DDL(S1).sql` — Data Definition Language.
-- `DML+DQL(S1).sql` — Data Manipulation and Query Languages.
+- `DDL(S1).sql` — *Data Definition Language (DDL) examples.*
+- `DML+DQL(S1).sql` — *Data Manipulation Language (DML) and Data Query Language (DQL) basics.*
+- `DML+DQL_PRACTICE(S1).sql` — *Practice scripts for DML and DQL operations.*
+- `TCL+DCL(S1).sql` — *Transaction Control Language (TCL) and Data Control Language (DCL) examples.*
 
 ### **Section 2: Intermediate SQL**  
 Dive into JOINs, GROUP BY, HAVING, subqueries, and string functions.
@@ -65,7 +67,7 @@ Real-world projects, including data preparation for machine learning.
 This folder contains ER diagrams that visually represent the database structures used in various projects.
 - **ER_Diagram_Classsicmodels.mwb** — Classic Models database diagram.
 - **ER_Diagram_Employee_Management.mwb** — Employee Management database diagram.
-- **ER_Diagram_Employee_Management_Backup.mwb.bak** — Backup of the Employee Management ER diagram.
+
   
 You can open these diagrams using MySQL Workbench to view the structure and relationships between tables in each database.
 
