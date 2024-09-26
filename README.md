@@ -54,18 +54,17 @@ This section demonstrates the full development of an **Employee Management Datab
 
 ### **Section 5: Final Projects**  
 Real-world projects, including data preparation for machine learning.
-- `Final_Project_Script_Part_1(S1).sql` — Part 1 of the final project.
-- `Final_Project_Script_Part_2(S2).sql` — Part 2 of the final project.
-- `Final_Project_Script_Part_3(S3).sql` — Part 3 of the final project.
-- `Final_Project_Script_Data_Prep_for_ML(S4).sql` — Data preparation for machine learning.
-
+- `Final_Project_Script_part_1(S1).sql` — *First part of the final project scripts, involving core SQL concepts.*
+- `Final_Project_Script_part_2(S2).sql` — *Second part of the final project, including intermediate SQL techniques.*
+- `Final_Project_Script_part_3(S3).sql` — *Third part of the project, using advanced SQL concepts.*
+- `Final_Project_Script_data_prep_for_ML(S4).sql` — *Final part focusing on preparing the data for machine learning.*
 ---
 
 ### **ER Diagrams:**
 This folder contains ER diagrams that visually represent the database structures used in various projects.
 - **ER_Diagram_Classsicmodels.mwb** — Classic Models database diagram.
 - **ER_Diagram_Employee_Management.mwb** — Employee Management database diagram.
-- **ER_Diagram_Employee_Management_Backup.mwb.bak** — Backup of the Employee Management ER diagram.
+
   
 You can open these diagrams using MySQL Workbench to view the structure and relationships between tables in each database.
 
