@@ -64,11 +64,11 @@ Real-world projects, including data preparation for machine learning.
 Теперь этот раздел будет полностью соответствовать структуре репозитория. Обнови README
 ---
 
-### **ER Diagrams:**
-This folder contains ER diagrams that visually represent the database structures used in various projects.
-- **ER_Diagram_Classsicmodels.mwb** — Classic Models database diagram.
-- **ER_Diagram_Employee_Management.mwb** — Employee Management database diagram.
+### **Section 7: ER Diagrams**  
+This section contains the Entity-Relationship (ER) diagrams that visually represent the database structures used in the projects.
 
+- `ER diagram Employee_management.mwb` — *ER diagram for the Employee Management project.*
+- `ER diagram classicmodels.mwb` — *ER diagram for the Classic Models sample database.*
   
 You can open these diagrams using MySQL Workbench to view the structure and relationships between tables in each database.
 
