@@ -6,7 +6,7 @@
 - **SQL Basics**: SELECT, WHERE, filtering, and basic functions.
 - **Intermediate SQL**: JOINs, GROUP BY, subqueries, and string functions.
 - **Advanced SQL**: Window functions, PIVOT/UNPIVOT, regular expressions (RegEx), and stored procedures.
-- **Database Design**: Normalization, table creation, and indexing.
+- **Employee Management Project**: Custom database project demonstrating full database creation, normalization, and data manipulation.
 - **Final Projects**: Real-world business projects, including data preparation for machine learning (ML).
 
 ---
@@ -22,52 +22,50 @@
 
 ### **Section 1: SQL Basics**  
 Learn the basics of SQL including SELECT, WHERE, and basic filtering.
-- `SELECT_Statements.sql`
-- `WHERE_Filtering.sql`
-- `DDL(S1).sql`
-- `DML+DQL(S1).sql`
+- `DDL(S1).sql` — Data Definition Language.
+- `DML+DQL(S1).sql` — Data Manipulation and Query Languages.
 
 ### **Section 2: Intermediate SQL**  
 Dive into JOINs, GROUP BY, HAVING, subqueries, and string functions.
-- `JOINs.sql`
-- `GROUP_BY_HAVING.sql`
-- `Subqueries.sql`
-- `String_Functions(S2).sql`
-- `ReGeXP_Practice(S2).sql`
-- `SELECT_Design(S2).sql`
-- `TCL+DCL(S1).sql`
-- `GROUPBY_subquery_mathfunc_string.sql`
+- `Aggregate_Functions(S2).sql` — Working with aggregate functions such as `SUM()`, `AVG()`, etc.
+- `ReGeXP_Practice(S2).sql` — Regular expressions and pattern matching.
+- `GROUP_BY_Practice_+_Comments(S2).sql` — Grouping data with `GROUP BY`.
+- `SubQuery(S2).sql` — Example of subqueries.
+- `SELECT_Disign(S2).sql` — Advanced select query examples.
+- `String_Functions(S2).sql` — Functions for string manipulation.
 
 ### **Section 3: Advanced SQL**  
 Explore complex SQL topics including window functions, PIVOT, and query optimization.
-- `PIVOT_in_MYSQL.sql`
-- `UNPIVOT_in_MYSQL.sql`
-- `Window_Functions(S3).sql`
-- `Indexes(S3).sql`
-- `Query_Optimization_Techniques(S3).sql`
-- `View(S3).sql`
-- `Stored_Procedures(S3).sql`
+- `Window_Functions(S3).sql` — Using window functions for advanced data analysis.
+- `PIVOT_in_MYSQL(S3).sql` — Pivoting data in SQL.
+- `UNPIVOT_in_MYSQL(S3).sql` — Unpivoting data in SQL.
+- `Indexes(S3).sql` — Creating and using indexes for optimization.
+- `Query_Optimization_Techniques(S3).sql` — Tips for optimizing SQL queries.
+- `Stored_Procedures(S3).sql` — Creating and using stored procedures.
+- `View(S3).sql` — Working with SQL views.
 
-### **Section 4: Database Design**  
-Learn to design databases, apply normalization techniques, and create indexes for optimization.
-- `Database_Creation.sql`
-- `Normalization_1NF_2NF_3NF.sql`
-- `Indexing_for_optimization.sql`
+### **Section 4: Employee Management Project**  
+This section demonstrates the full development of an **Employee Management Database**. The project includes database creation, normalization checks, data manipulation practices, and full-featured database management.
+
+- `Scrip_Employee_Management_Database.sql` — Initial structure of the Employee Management database.
+- `Scrip_Employee_Management_Check_Normalization_Forms.sql` — Demonstration of normalization forms (1NF, 2NF, 3NF).
+- `Scrip_Employee_Management_DML_Practice_Insert.sql` — Practical examples of `INSERT`, `UPDATE`, and `DELETE` for the Employee Management database.
+- `Scrip_Employee_Management_Full_Features.sql` — Full-featured database management script with validation and stored procedures.
 
 ### **Section 5: Final Projects**  
 Real-world projects, including data preparation for machine learning.
-- `Final_Project_Script_Part_1.sql`
-- `Final_Project_Script_Part_2.sql`
-- `Final_Project_Script_Part_3.sql`
-- `Final_Project_Script_Data_Prep_for_ML.sql`
+- `Final_Project_Script_Part_1(S1).sql` — Part 1 of the final project.
+- `Final_Project_Script_Part_2(S2).sql` — Part 2 of the final project.
+- `Final_Project_Script_Part_3(S3).sql` — Part 3 of the final project.
+- `Final_Project_Script_Data_Prep_for_ML(S4).sql` — Data preparation for machine learning.
 
 ---
 
 ### **ER Diagrams:**
 This folder contains ER diagrams that visually represent the database structures used in various projects.
-- **ER_Diagram_Classsicmodels.mwb** - Classic Models database diagram.
-- **ER_Diagram_Employee_Management.mwb** - Employee Management database diagram.
-- **ER_Diagram_Employee_Management_Backup.mwb.bak** - Backup of the Employee Management ER diagram.
+- **ER_Diagram_Classsicmodels.mwb** — Classic Models database diagram.
+- **ER_Diagram_Employee_Management.mwb** — Employee Management database diagram.
+- **ER_Diagram_Employee_Management_Backup.mwb.bak** — Backup of the Employee Management ER diagram.
   
 You can open these diagrams using MySQL Workbench to view the structure and relationships between tables in each database.
 
@@ -75,12 +73,11 @@ You can open these diagrams using MySQL Workbench to view the structure and rela
 
 ### **ADVANCED SQL SCRIPTS (ORIGINAL):**
 This folder contains additional advanced SQL scripts that demonstrate complex concepts and techniques. These scripts are organized by theme and can be useful for deepening your understanding of SQL:
-- **Aggregate Functions**: Demonstrates the use of SQL functions like `SUM()`, `AVG()`, `COUNT()`, etc., for aggregating data.
-- **COMMON TABLE EXPRESSION (CTE)**: Shows examples of how to use CTEs to write more readable and maintainable SQL queries.
-- **Re-answering Business Questions**: Practical examples of how to use SQL for answering common business queries.
-- **ReDDL_DML_TCL_DQL_DCL.sql**: Covers Data Definition Language (DDL), Data Manipulation Language (DML), Transaction Control Language (TCL), and Data Query Language (DQL) practices.
-- **Understanding_JOINS.sql**: Explains the different types of SQL JOINs with examples.
-- **Window_CTE_Views_StoredProc.sql**: A comprehensive script combining window functions, CTEs, views, and stored procedures.
+- **COMMON TABLE EXPRESSION (CTE).sql** — Demonstrates the use of CTEs in SQL.
+- **Re-answering_Business_Questions.sql** — Answering complex business questions using SQL.
+- **ReDDL_DML_TCL_DQL_DCL.sql** — Covers DDL, DML, TCL, and DCL practices.
+- **Understanding_JOINS.sql** — Explains various types of SQL `JOINs` with examples.
+- **Window_CTE_Views_StoredProc.sql** — A comprehensive script combining window functions, CTEs, views, and stored procedures.
 
 ---
 
