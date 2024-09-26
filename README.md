@@ -50,11 +50,10 @@ Explore complex SQL topics including window functions, PIVOT, and query optimiza
 
 ### **Section 4: Employee Management Project**  
 This section demonstrates the full development of an **Employee Management Database**. The project includes database creation, normalization checks, data manipulation practices, and full-featured database management.
-
-- `Scrip_Employee_Management_Database.sql` — Initial structure of the Employee Management database.
-- `Scrip_Employee_Management_Check_Normalization_Forms.sql` — Demonstration of normalization forms (1NF, 2NF, 3NF).
-- `Scrip_Employee_Management_DML_Practice_Insert.sql` — Practical examples of `INSERT`, `UPDATE`, and `DELETE` for the Employee Management database.
-- `Scrip_Employee_Management_Full_Features.sql` — Full-featured database management script with validation and stored procedures.
+- `Scrip_Employee_Management_Check_Normalization_Forms.sql` — *Check and validate the normalization forms (1NF, 2NF, 3NF) of the employee database.*
+- `Scrip_Employee_Management_Database.sql` — *Script for creating the employee management database.*
+- `Scrip_Employee_Management_DML_practice_++insert.sql` — *Data Manipulation Language (DML) practice scripts with insert operations.*
+- `Scrip_Employee_Management_full_features.sql` — *Complete script with full features for the employee management system.*
 
 ### **Section 5: Final Projects**  
 Real-world projects, including data preparation for machine learning.
