@@ -29,12 +29,13 @@ Learn the basics of SQL including SELECT, WHERE, and basic filtering.
 
 ### **Section 2: Intermediate SQL**  
 Dive into JOINs, GROUP BY, HAVING, subqueries, and string functions.
-- `Aggregate_Functions(S2).sql` — Working with aggregate functions such as `SUM()`, `AVG()`, etc.
-- `ReGeXP_Practice(S2).sql` — Regular expressions and pattern matching.
-- `GROUP_BY_Practice_+_Comments(S2).sql` — Grouping data with `GROUP BY`.
-- `SubQuery(S2).sql` — Example of subqueries.
-- `SELECT_Disign(S2).sql` — Advanced select query examples.
-- `String_Functions(S2).sql` — Functions for string manipulation.
+- `Aggregate_Functions(S2).sql` — *Working with aggregate functions such as `SUM()`, `AVG()`, etc.*
+- `Final_Project_Script_part_2(S2).sql` — *Intermediate steps and data processing in the final project.*
+- `GROUP_BY_Practice_++_Comments(S2).sql` — *Aggregating and grouping data with `GROUP BY`.*
+- `ReGeXP_Practice(S2).sql` — *Regular expressions and pattern matching.*
+- `SELECT_Disign(S2).sql` — *Advanced SELECT query examples.*
+- `String_Functions(S2).sql` — *Functions for string manipulation.*
+- `SubQuery(S2).sql` — *Example of subqueries.*
 
 ### **Section 3: Advanced SQL**  
 Explore complex SQL topics including window functions, PIVOT, and query optimization.
