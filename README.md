@@ -71,13 +71,18 @@ You can open these diagrams using MySQL Workbench to view the structure and rela
 
 ---
 
-### **ADVANCED SQL SCRIPTS (ORIGINAL):**
-This folder contains additional advanced SQL scripts that demonstrate complex concepts and techniques. These scripts are organized by theme and can be useful for deepening your understanding of SQL:
-- **COMMON TABLE EXPRESSION (CTE).sql** — Demonstrates the use of CTEs in SQL.
-- **Re-answering_Business_Questions.sql** — Answering complex business questions using SQL.
-- **ReDDL_DML_TCL_DQL_DCL.sql** — Covers DDL, DML, TCL, and DCL practices.
-- **Understanding_JOINS.sql** — Explains various types of SQL `JOINs` with examples.
-- **Window_CTE_Views_StoredProc.sql** — A comprehensive script combining window functions, CTEs, views, and stored procedures.
+### **Section 6: Advanced SQL Scripts (Original)**  
+A collection of advanced SQL scripts covering a wide range of topics for deep understanding and practice.
+- `GROUPBY_subquery_mathfunc_string.sql` — *Scripts focusing on subqueries, mathematical functions, and string manipulation.*
+- `Indexes.sql` — *Scripts demonstrating how to create and manage indexes for performance optimization.*
+- `Pivot_Unpivot.sql` — *Learn to pivot and unpivot data for better data organization and analysis.*
+- `Query_optimization.sql` — *Tips and techniques for optimizing complex queries.*
+- `Re_answering_business_questions.sql` — *Answering complex business questions using SQL.*
+- `Regex_QueryFlow.sql` — *Demonstrating regular expression techniques within SQL queries.*
+- `Understanding_JOINS.sql` — *Deep dive into SQL JOINs and their practical use cases.*
+- `Window_CTE_Views_StoredProc.sql` — *Examples covering Window Functions, Common Table Expressions (CTE), Views, and Stored Procedures.*
+- `classicmodels.sql` — *Dataset used in examples and practice sessions.*
+- `project.sql` — *Full project script combining multiple advanced SQL concepts.*
 
 ---
 
