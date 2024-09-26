@@ -61,7 +61,6 @@ Real-world projects, including data preparation for machine learning.
 - `Final_Project_Script_part_2(S2).sql` — *Second part of the final project, including intermediate SQL techniques.*
 - `Final_Project_Script_part_3(S3).sql` — *Third part of the project, using advanced SQL concepts.*
 - `Final_Project_Script_data_prep_for_ML(S4).sql` — *Final part focusing on preparing the data for machine learning.*
-Теперь этот раздел будет полностью соответствовать структуре репозитория. Обнови README
 ---
 
 ### **Section 7: ER Diagrams**  
