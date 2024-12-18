@@ -99,8 +99,8 @@ Master advanced visualization techniques using **ggplot2**.
 
 
  ##   📧 *Feedback*
-If you have any suggestions, questions, or feedback, feel free to open an issue. Let’s grow and learn together! 🚀
+### If you have any suggestions, questions, or feedback, feel free to open an issue. Let’s grow and learn together! 🚀
 
 ## 👨‍💻 *Author*
-Evgenii Matveev
-Data Analyst | R Programming Enthusiast
+### Evgenii Matveev
+### Data Analyst | R Programming Enthusiast
