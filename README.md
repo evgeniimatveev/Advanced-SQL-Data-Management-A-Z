@@ -57,32 +57,14 @@ Real-world projects, including data preparation for machine learning.
 - `Final_Project_Script_part_2(S2).sql` — *Second part of the final project, including intermediate SQL techniques.*
 - `Final_Project_Script_part_3(S3).sql` — *Third part of the project, using advanced SQL concepts.*
 - `Final_Project_Script_data_prep_for_ML(S4).sql` — *Final part focusing on preparing the data for machine learning.*
-### **Section 3: Matrices and Advanced Operations 🧮**  
-Learn to work with matrices for advanced data manipulations and analysis.
-**Files:**  
-- `01_Creating_and_Using_Matrices.R` — Creating matrices and performing operations.  
-- `02_Naming_Dimensions.R` — Naming rows and columns in matrices.  
-- `03_Matrix_Operations.R` — Advanced matrix manipulations.  
-- `04_Subsetting_Matrices.R` — Subsetting and extracting matrix data.  
-- `05_Basketball_Insights_Project.R` — Real-world project analyzing basketball data.  
----
 
-### **Section 7: ER Diagrams**  
+### **ER Diagrams**  
 This section contains the Entity-Relationship (ER) diagrams that visually represent the database structures used in the projects.
-### **Section 4: Data Frames and Analysis 📊**  
-Work with **data frames** to import, analyze, and manipulate datasets.
 
 - `ER diagram Employee_management.mwb` — *ER diagram for the Employee Management project.*
 - `ER diagram classicmodels.mwb` — *ER diagram for the Classic Models sample database.*
   
 You can open these diagrams using MySQL Workbench to view the structure and relationships between tables in each database.
-**Files:**  
-- `01_Importing_and_Exploring_Data.R` — Importing data and performing basic exploration.  
-- `02_Basic_Operations_with_Data_Frames.R` — Operations like sorting and filtering.  
-- `03_Filtering_Data_Frames.R` — Filtering data using conditions.  
-- `04_Building_and_Merging_Data_Frames.R` — Building and merging data frames.  
-- `05_Demographic_Analysis_Project.R` — Project for demographic data analysis.  
-
 ---
 
 ### **Section 6: Advanced SQL Scripts (Original)**  
