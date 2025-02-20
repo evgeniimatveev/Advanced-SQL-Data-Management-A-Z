@@ -101,15 +101,7 @@ A collection of advanced SQL scripts covering a wide range of topics for deep un
 1. Clone this repository:  
    `git clone https://github.com/evgeniimatveev/Advanced_SQL_Data_Management_A-Z.git`
 2. Open **MySQL Workbench** or your preferred SQL client.
-3. Navigate to the relevant project section, and run the SQL scripts in your database.
-### **Section 5: Advanced Visualization with GGPlot2 📈**  
-Create professional and visually stunning plots using **GGPlot2**.
-**Files:**  
-- `01_Grammar_of_Graphics_Intro.R` — Introduction to the grammar of graphics.  
-- `02_Plotting_with_Layers.R` — Plotting data using multiple layers.  
-- `03_Aesthetics_and_Factors.R` — Customizing aesthetics and working with factors.  
-- `04_Statistical_Transformations.R` — Adding statistical transformations.  
-- `05_Movie_Ratings_Visualization_Project.R` — Visualize movie ratings data in a project.  
+3. Navigate to the relevant project section, and run the SQL scripts in your database
 
 ---
 
@@ -118,35 +110,15 @@ SQL is a critical skill for anyone involved in data analysis, database managemen
 - Analyze and manipulate large datasets efficiently.
 - Design and manage scalable databases.
 - Prepare data for advanced analytics, including machine learning.
-### **Section 6: Homework Solutions 📝**  
-Solutions to all major homework assignments from the course.
-**Files:**  
-- `01_Law_of_Large_Numbers_Solution.R` — Solution for the Law of Large Numbers.  
-- `02_Financial_Statement_Analysis.R` — Analyzing financial statements.  
-- `03_Basketball_Free_Throws_Solution.R` — Basketball free-throws project.  
-- `04_World_Trends_Solution.R` — Exploring and analyzing world trends.  
-- `05_Movie_Gross_Project_Part1.R` — Solution for movie gross analysis project.  
 
 ---
-
-## 🏆 Contributing
-We welcome contributions to improve this repository! Here’s how you can get involved:
-### **Special Bonus: Additional Visualizations 🎁**  
-Extra visualization techniques to enhance your R skills.  
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature/new-feature`.
 3. Make changes and commit: `git commit -m 'Add new feature'`.
 4. Push to the branch: `git push origin feature/new-feature`.
 5. Submit a pull request.
-**Files:**  
-- `01_Boxplots_Visualization.R` — Learn to create boxplots for data analysis.  
 
 ---
 
 Happy coding! 🚀
-## 🚀 **How to Use**  
-1. Clone this repository to your local machine:  
-   ```bash
-   git clone https://github.com/evgeniimatveev/R-Programming-A-Z.git  
-   cd R-Programming-A-Z
