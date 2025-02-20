@@ -1,56 +1,23 @@
-# Advanced SQL & Data Management A-Z 💻
-# R Programming A-Z 📊  
+# Advanced SQL & Data Management A-Z 💻  
 
-🎉 Welcome to the **Advanced SQL & Data Management A-Z** repository! This repository contains comprehensive SQL scripts, projects, and best practices for mastering SQL and database management.
-🎉 **Welcome to the R Programming A-Z repository!**  
-This repository contains comprehensive **R scripts**, **projects**, and **exercises** to help you master R programming for **data manipulation**, **visualization**, and **analysis**.  
+🎉 Welcome to the **Advanced SQL & Data Management A-Z** repository!  
+This repository contains comprehensive **SQL scripts**, **projects**, and **best practices** for mastering SQL and database management.
+
+---
 
 ## 📚 What You Will Learn:
-- **SQL Basics**: SELECT, WHERE, filtering, and basic functions.
-- **Intermediate SQL**: JOINs, GROUP BY, subqueries, and string functions.
-- **Advanced SQL**: Window functions, PIVOT/UNPIVOT, regular expressions (RegEx), and stored procedures.
+- **SQL Basics**: `SELECT`, `WHERE`, filtering, and basic functions.
+- **Intermediate SQL**: `JOINs`, `GROUP BY`, `HAVING`, subqueries, and string functions.
+- **Advanced SQL**: Window functions, `PIVOT/UNPIVOT`, regular expressions (RegEx), and stored procedures.
 - **Employee Management Project**: Custom database project demonstrating full database creation, normalization, and data manipulation.
-- **Final Projects**: Real-world business projects, including data preparation for machine learning (ML).
+- **Final Projects**: Real-world business projects, including **data preparation for machine learning (ML)**.
+
 ---
-## 📚 **What You Will Learn**  
-- **Core Programming Principles**: Variables, loops, conditionals.  
-- **R Fundamentals**: Vectors, functions, and vectorized operations.  
-- **Matrices**: Advanced manipulations and data analysis.  
-- **Data Frames**: Importing, filtering, and merging data.  
-- **Advanced Visualization**: Stunning visualizations with **GGPlot2**.  
-- **Real-World Projects**: Apply your knowledge with practical examples.  
----
+
 ## 🛠️ **Tools & Requirements**  
-- **R** (latest version)  
-- **RStudio** (IDE for R)  
-- Basic programming knowledge (recommended but optional).  
----
-## 📂 **Project Structure**  
-### **Section 1: Core Programming Principles 🧩**  
-Learn the fundamentals of R programming, including variables, loops, and conditional logic.
-**Files:**  
-- `01_Variables_and_Types.R` — Introduction to variables and data types.  
-- `02_Logical_Values.R` — Working with logical values and operators.  
-- `03_Loops_While_and_For.R` — Using `while` and `for` loops in R.  
-- `04_If_Else_Statements.R` — Implementing conditional logic with `if-else`.  
-- `05_Law_of_Large_Numbers.R` — A project to apply core programming principles.  
-
----
-
-## 🛠️ Tools & Requirements:
 - **MySQL Workbench** (for MySQL projects)
 - **PostgreSQL and PgAdmin 4** (optional)
-- Basic knowledge of SQL (ideal but not required)
-### **Section 2: Fundamentals of R 🚀**  
-Explore vectors, vectorized operations, and functions to write cleaner and more efficient code.
-**Files:**  
-- `01_Vectors_and_Operations.R` — Introduction to vectors and operations.  
-- `02_Square_Brackets_Usage.R` — Using square brackets `[]` for subsetting.  
-- `03_Functions_in_R.R` — Creating and using functions in R.  
-- `04_Vectorized_Operations.R` — Leveraging vectorized operations for efficiency.  
-- `05_Extra_Examples.R` — Additional exercises for practice.  
-
----
+- Basic knowledge of SQL (recommended but not required)
 
 ## 📂 Project Structure:
 ### **Section 1: SQL Basics**  
