@@ -1,11 +1,11 @@
-# Advanced SQL & Data Management A-Z 💻  
+# Advanced SQL & Data Management A-Z   
 
-🎉 Welcome to the **Advanced SQL & Data Management A-Z** repository!  
+ Welcome to the **Advanced SQL & Data Management A-Z** repository!  
 This repository contains comprehensive **SQL scripts**, **projects**, and **best practices** for mastering SQL and database management.
 
 ---
 
-## 📚 What You Will Learn:
+##  What You Will Learn:
 - **SQL Basics**: `SELECT`, `WHERE`, filtering, and basic functions.
 - **Intermediate SQL**: `JOINs`, `GROUP BY`, `HAVING`, subqueries, and string functions.
 - **Advanced SQL**: Window functions, `PIVOT/UNPIVOT`, regular expressions (RegEx), and stored procedures.
@@ -14,12 +14,12 @@ This repository contains comprehensive **SQL scripts**, **projects**, and **best
 
 ---
 
-## 🛠️ **Tools & Requirements**  
+## ️ **Tools & Requirements**  
 - **MySQL Workbench** (for MySQL projects)
 - **PostgreSQL and PgAdmin 4** (optional)
 - Basic knowledge of SQL (recommended but not required)
 
-## 📂 Project Structure:
+##  Project Structure:
 ### **Section 1: SQL Basics**  
 Learn the basics of SQL including SELECT, WHERE, and basic filtering.
 - `DDL(S1).sql` — *Data Definition Language (DDL) examples.*
@@ -79,7 +79,7 @@ A collection of advanced SQL scripts covering a wide range of topics for deep un
 - `Window_CTE_Views_StoredProc.sql` — *Examples covering Window Functions, Common Table Expressions (CTE), Views, and Stored Procedures.*
 - `classicmodels.sql` — *Dataset used in examples and practice sessions.*
 - `project.sql` — *Full project script combining multiple advanced SQL concepts.*
-## 🛠️ Setup & Installation:
+## ️ Setup & Installation:
 1. Clone this repository:  
    `git clone https://github.com/evgeniimatveev/Advanced_SQL_Data_Management_A-Z.git`
 2. Open **MySQL Workbench** or your preferred SQL client.
@@ -87,7 +87,7 @@ A collection of advanced SQL scripts covering a wide range of topics for deep un
 
 ---
 
-## 🎓 Why Master SQL?
+##  Why Master SQL?
 SQL is a critical skill for anyone involved in data analysis, database management, or data science. This repository will help you:
 - Analyze and manipulate large datasets efficiently.
 - Design and manage scalable databases.
@@ -103,4 +103,4 @@ SQL is a critical skill for anyone involved in data analysis, database managemen
 
 ---
 
-Happy coding! 🚀
+Happy coding! 
