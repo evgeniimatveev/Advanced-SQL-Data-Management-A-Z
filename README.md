@@ -1,3 +1,10 @@
+![SQL Badge](https://img.shields.io/badge/Advanced_SQL-Expert_Level-blue)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql&logoColor=white)
+![Database Design](https://img.shields.io/badge/Database_Design-ERD%20Modeling-yellow)
+![Normalization](https://img.shields.io/badge/Normalization-1NF%2C%202NF%2C%203NF-brightgreen)
+![Stored Procedures](https://img.shields.io/badge/Stored_Procedures-Advanced-red)
+
+
 # Advanced SQL & Data Management A-Z 💻
 
 🎉 Welcome to the **Advanced SQL & Data Management A-Z** repository! This repository contains comprehensive SQL scripts, projects, and best practices for mastering SQL and database management.
