@@ -1,0 +1,8 @@
+# --- Treat .sql as primary language for this repository
+*.sql linguist-detectable=true linguist-language=SQL
+
+# Do not treat non-code assets as programming languages
+*.mwb linguist-detectable=false
+*.pdf linguist-detectable=false
+*.csv linguist-detectable=false
+*.xlsx linguist-detectable=false
