@@ -1,16 +1,16 @@
-![SQL Badge](https://img.shields.io/badge/Advanced_SQL-Expert_Level-blue)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql&logoColor=white)
-![Database Design](https://img.shields.io/badge/Database_Design-ERD_Modeling-yellow)
-![Normalization](https://img.shields.io/badge/Normalization-1NF_2NF_3NF-brightgreen)
-![Window Functions](https://img.shields.io/badge/Window_Functions-OVER()_PARTITION_BY-blueviolet)
-![CTE](https://img.shields.io/badge/CTE-Common_Table_Expressions-ff69b4)
-![Stored Procedures](https://img.shields.io/badge/Stored_Procedures-Advanced-red)
-![Query Optimization](https://img.shields.io/badge/Query_Optimization-Performance_Tuning-critical)
-![HR Database](https://img.shields.io/badge/Employee_Management-Database_Project-lightgrey)
-![Workbench](https://img.shields.io/badge/MySQL_Workbench-DB_Tools-blue?logo=mysql)
-![SQL Scripts](https://img.shields.io/badge/Scripts-.sql-green)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
+<p align="center">
+
+  <img src="https://img.shields.io/badge/Advanced_SQL-Expert_Level-blue" />
+  <img src="https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database_Design-ERD_Modeling-yellow" />
+  <img src="https://img.shields.io/badge/Normalization-1NF_2NF_3NF-brightgreen" />
+  <img src="https://img.shields.io/badge/Window_Functions-OVER()_PARTITION_BY-blueviolet" />
+  <img src="https://img.shields.io/badge/CTE-Common_Table_Expressions-ff69b4" />
+  <img src="https://img.shields.io/badge/Stored_Procedures-Advanced-red" />
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey" />
+
+</p>
 
 ---
 
