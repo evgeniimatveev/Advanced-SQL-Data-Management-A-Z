@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/CTE-Common_Table_Expressions-ff69b4" />
   <img src="https://img.shields.io/badge/Stored_Procedures-Advanced-red" />
   <img src="https://img.shields.io/badge/Status-Active-brightgreen" />
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey" />
+  
 
 </p>
 
