@@ -123,6 +123,9 @@ COMMIT;  -- Uncomment to save the first update for 'Business Analyst'
 
 -- Additional Examples: Using GRANT and REVOKE Commands
 
+-- (added: MySQL 8 no longer creates users implicitly with GRANT, so the example users are created first)
+CREATE USER IF NOT EXISTS 'john_doe'@'%', 'jane_doe'@'%', 'admin_user'@'%', 'editor_user'@'%', 'schema_manager'@'%';
+
 -- Example 7: Granting SELECT Permission to a User
 GRANT SELECT ON employees_DCL TO 'john_doe';
 
@@ -142,11 +145,11 @@ REVOKE INSERT ON employees_DCL FROM 'jane_doe';
 REVOKE ALL PRIVILEGES ON employees_DCL FROM 'admin_user';
 
 -- Example 13: Granting Permission to Create New Tables
-GRANT CREATE ON DATABASE company TO 'schema_manager';
+GRANT CREATE ON company.* TO 'schema_manager';  -- (fixed: MySQL syntax is ON company.*, not ON DATABASE company)
 
 -- Example 14: Revoking Permission to Create New Tables
-REVOKE CREATE ON DATABASE company FROM 'schema_manager';
+REVOKE CREATE ON company.* FROM 'schema_manager';  -- (fixed: MySQL syntax)
 
 -- Final Step: Cleanup (optional)
 -- Dropping the 'departments' table if it was created for this script
-DROP TABLE departments;
+DROP TABLE IF EXISTS departments;  -- (added: IF EXISTS, the table may not have been created)

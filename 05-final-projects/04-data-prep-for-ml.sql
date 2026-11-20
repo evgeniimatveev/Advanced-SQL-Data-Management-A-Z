@@ -16,7 +16,7 @@ CREATE TABLE analysis.FINAL_TABLE_FOR_MACHINE_LEARNING AS
 -- This table contains basic information about the customer, such as name, phone number, and address.
 SELECT CF.*,
 
--- Step 4: Include key RFM metrics from the 'customerRFM' table (RFM).
+-- Step 4: Include key RFM metrics from the 'customerfm' table (RFM).
 -- These metrics capture the recency (how recently the customer made a purchase), frequency (how often the customer buys), 
 -- and monetary value (total spent by the customer).
 RFM.recency,              -- Recency: the number of days since the last purchase.
@@ -40,7 +40,7 @@ CPL.Vintage_Cars_Sales,   -- Total sales for the 'Vintage Cars' product line.
 CPL.Trucks_and_Buses_Sales -- Total sales for the 'Trucks and Buses' product line.
 
 -- Step 7: Specify the tables from which the data will be joined.
--- The final table is built by joining four main tables: 'customerbasicinfo' (CF), 'customerRFM' (RFM),
+-- The final table is built by joining four main tables: 'customerbasicinfo' (CF), 'customerfm' (RFM),
 -- 'customeradditionalmetrics' (AMC), and 'customerproductlines' (CPL). 
 -- These tables contain the necessary features for machine learning, such as customer demographics, purchasing behavior,
 -- and product preferences.
@@ -48,7 +48,7 @@ CPL.Trucks_and_Buses_Sales -- Total sales for the 'Trucks and Buses' product lin
 -- Step 8: Use LEFT JOINs to combine all the tables based on the customerNumber (primary key).
 -- LEFT JOIN ensures that even if a customer doesn't have data in some of the joined tables, their basic info is still included.
 FROM customerbasicinfo AS CF  -- This is the main table, containing basic customer details.
-LEFT JOIN customerrfm AS RFM   -- Joining the 'customerrfm' table to get RFM metrics.
+LEFT JOIN customerfm AS RFM   -- Joining the 'customerfm' table to get RFM metrics.
 ON CF.customerNumber = RFM.customerNumber  -- Joining on the 'customerNumber' column.
 
 LEFT JOIN customeradditionalmetrics AS AMC  -- Joining the 'customeradditionalmetrics' table to get average order metrics.
