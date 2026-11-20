@@ -55,7 +55,7 @@ details=""
 
 for f in "${SCRIPTS[@]}"; do
   reset_server
-  for p in ${PRELUDE[$f]:-}; do run_file "$p" "${DEFAULT_DB[$f]:-}"; done
+  for p in ${PRELUDE[$f]:-}; do run_file "$p"; done   # preludes create their own databases
   run_file "$f" "${DEFAULT_DB[$f]:-}"
   n=$(grep -c "^ERROR" /tmp/script.err || true)
   if [ "$n" -eq 0 ]; then

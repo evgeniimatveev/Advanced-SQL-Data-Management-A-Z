@@ -1,4 +1,4 @@
-- # Final project: Data preparation for machine learning
+-- # Final project: Data preparation for machine learning
 -- This query creates a final table that consolidates customer information and various metrics
 -- related to purchase behavior, product preferences, and transaction history.
 -- The final table is essential for building machine learning models that predict customer behavior.

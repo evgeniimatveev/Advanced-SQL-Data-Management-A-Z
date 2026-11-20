@@ -7,8 +7,8 @@ SELECT * FROM analysis.customerbasicinfo;
 -- The 'truncate' statement removes all data from the table 'customerfm', but keeps the table structure.
 -- The 'drop table' command deletes both the table data and structure.
 -- These commands are used to ensure that the table is either emptied or fully deleted before re-creating it.
-TRUNCATE analysis.customerfm;   -- Clears the table but keeps the structure
-DROP TABLE analysis.customerfm; -- Deletes the table completely
+-- TRUNCATE analysis.customerfm;   -- Clears the table but keeps the structure (commented out: it fails when the table does not exist yet)
+DROP TABLE IF EXISTS analysis.customerfm; -- Deletes the table completely (added: IF EXISTS, so the script also runs on a clean database)
 
 -- Step 3: Creating a new table 'customerfm' for RFM analysis (Recency, Frequency, Monetary value)
 -- The 'CREATE TABLE' statement creates a new table called 'customerfm'.

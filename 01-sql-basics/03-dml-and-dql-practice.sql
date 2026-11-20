@@ -260,7 +260,7 @@ VALUES (49, 'James', 'UI Developer', 28000.00, '1997-07-22');
 -- Inserting the fiftieth employee record
 -- Adding Abigail as a Technical Support with a salary of 22000.00, hired on 1990-11-15
 INSERT INTO employees (id, name, position, salary, hire_date)
-VALUES (50, 'Abigail', 'Technical Support', 22000.00, '1990-11-15')
+VALUES (50, 'Abigail', 'Technical Support', 22000.00, '1990-11-15');  -- (added: the closing semicolon was missing)
 
 -- # DQL command (Data Query Language)
 -- The following command is used to retrieve data from the database.

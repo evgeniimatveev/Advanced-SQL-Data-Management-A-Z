@@ -3,6 +3,7 @@
 
 -- Step 1: Create a new table for additional customer metrics.
 -- This table will store information about the average order value and average order quantity per customer.
+DROP TABLE IF EXISTS analysis.customeradditionalmetrics;  -- (added: part 2 already created this table)
 CREATE TABLE analysis.customeradditionalmetrics AS
 SELECT
     customerNumber,  -- The unique identifier for each customer

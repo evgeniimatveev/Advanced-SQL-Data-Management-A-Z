@@ -1,3 +1,6 @@
+-- (added: the script uses this database but never created it)
+CREATE DATABASE IF NOT EXISTS amandemodb;
+
 CREATE TABLE amandemodb.customer(
 CustomerId INT primary KEY,
 CustomerName Varchar(200),
