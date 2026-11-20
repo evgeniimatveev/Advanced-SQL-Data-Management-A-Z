@@ -21,11 +21,11 @@ SELECT CF.*,
 -- and monetary value (total spent by the customer).
 RFM.recency,              -- Recency: the number of days since the last purchase.
 RFM.FREQUENCY,            -- Frequency: the total number of purchases made by the customer.
-RFM.MoneTory,             -- Monetary: total amount spent by the customer across all purchases.
+RFM.Monetary,             -- Monetary: total amount spent by the customer across all purchases.
 
 -- Step 5: Add metrics from the 'customeradditionalmetrics' table (AMC).
 -- This table calculates the average order value and average quantity ordered per transaction for each customer.
-AMC.AVERAGEOrderVA lue,   -- Average Order Value: the average monetary value of each order.
+AMC.AVERAGEOrderValue,   -- Average Order Value: the average monetary value of each order.
 AMC.AVERAGEOrderQUANTITY, -- Average Order Quantity: the average quantity of items ordered per order.
 
 -- Step 6: Include product sales metrics from the 'customerproductlines' table (CPL).

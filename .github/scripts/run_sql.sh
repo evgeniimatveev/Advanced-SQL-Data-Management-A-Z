@@ -34,6 +34,8 @@ ILLUSTRATIVE=" 01-sql-basics/02-dml-and-dql.sql "
 reset_server() {
   "${MYSQL[@]}" -N -e "SELECT schema_name FROM information_schema.schemata WHERE schema_name NOT IN ('mysql','sys','information_schema','performance_schema')" 2>/dev/null |
     while read -r db; do "${MYSQL[@]}" -e "DROP DATABASE \`$db\`" 2>/dev/null; done
+  # users and roles are server-wide: drop the ones created by earlier scripts
+  "${MYSQL[@]}" -N -e "SELECT CONCAT('DROP USER IF EXISTS ', QUOTE(user), '@', QUOTE(host), ';') FROM mysql.user WHERE user NOT IN ('root','mysql.sys','mysql.session','mysql.infoschema')" 2>/dev/null | "${MYSQL[@]}" 2>/dev/null
   "${MYSQL[@]}" < data/classicmodels.sql > /dev/null 2> /tmp/load.err
   if grep -q "^ERROR" /tmp/load.err; then echo "classicmodels.sql failed to load:"; head -5 /tmp/load.err; exit 1; fi
 }
