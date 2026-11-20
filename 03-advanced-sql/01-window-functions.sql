@@ -21,7 +21,7 @@ FROM classicmodels.customers;
 -- 3. RANK(): This assigns a rank to each row in the partition, starting from 1.
 --    If multiple customers have the same credit limit, they will receive the same rank, and the next rank will be skipped (e.g., if two customers have rank 1, the next rank will be 3).
 
--------------------------------------------------------------
+-- -------------------------------------------------------------
 
 -- Step 3: ROW_NUMBER() - Assign a unique row number to each customer
 -- The ROW_NUMBER() function is similar to RANK(), but it guarantees that each row gets a unique number.
@@ -41,7 +41,7 @@ FROM classicmodels.customers;
 -- 3. ROW_NUMBER(): This function assigns a unique sequential number to each row within a partition, starting from 1.
 --    Unlike RANK(), ROW_NUMBER() guarantees that each row has a unique number, even if there are ties in the data.
 
--------------------------------------------------------------
+-- -------------------------------------------------------------
 
 -- Step 4: DENSE_RANK() - Rank customers without gaps in the ranking
 -- DENSE_RANK() works like RANK(), but does not skip ranks.
@@ -61,7 +61,7 @@ FROM classicmodels.customers;
 -- 3. DENSE_RANK(): Similar to RANK(), but does not leave gaps in the ranking sequence.
 --    If two customers share the same rank, the next rank will be consecutive (e.g., rank 1, 1, 2 instead of rank 1, 1, 3).
 
--------------------------------------------------------------
+-- -------------------------------------------------------------
 
 -- Step 5: AVG() - Calculate moving average of credit limits
 -- The AVG() function can be used as a window function to calculate moving averages.
@@ -82,7 +82,7 @@ FROM classicmodels.customers;
 -- 3. ROWS BETWEEN 2 PRECEDING AND CURRENT ROW: Defines a "window frame" that includes the current row and the two preceding rows.
 --    The average is calculated based on these three rows.
 
--------------------------------------------------------------
+-- -------------------------------------------------------------
 
 -- Step 6: LAG() and LEAD() - Compare credit limits with the previous and next customers
 -- LAG() allows you to access data from the previous row, and LEAD() allows you to access data from the next row.
@@ -105,7 +105,7 @@ FROM classicmodels.customers;
 --    The second argument (1) specifies that we look one row after the current row.
 -- 3. These functions are useful for comparing values across rows without needing to use self-joins.
 
--------------------------------------------------------------
+-- -------------------------------------------------------------
 
 -- Step 7: SUM() and COUNT() - Calculate cumulative sum and total number of customers
 -- SUM() and COUNT() are standard aggregate functions, but when used with OVER(), they can calculate running totals and counts.
@@ -126,4 +126,4 @@ FROM classicmodels.customers;
 -- 2. COUNT(customerNumber) OVER(): Counts the total number of customers in each country.
 --    Since there is no ORDER BY, the count is the same for all rows in the same partition (country).
 
--------------------------------------------------------------
+-- -------------------------------------------------------------

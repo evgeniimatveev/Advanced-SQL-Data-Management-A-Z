@@ -14,7 +14,7 @@ CREATE TABLE PlatinumCustomer(
 -- 1. CREATE TABLE PlatinumCustomer: This creates a new table called 'PlatinumCustomer' with two columns.
 -- 2. VARCHAR(100): This specifies that the columns will store variable-length strings, up to 100 characters long.
 
--------------------------------------------------------------
+-- -------------------------------------------------------------
 
 -- Step 3: Define the DELIMITER for the procedure
 -- MySQL uses the semicolon (;) by default to indicate the end of a statement.
@@ -43,13 +43,13 @@ END $$  -- End of the procedure definition
 -- 4. SELECT customerName, phone: This selects the customer's name and phone from the 'customers' table, based on the provided 'custnumber' parameter.
 -- 5. WHERE customerNumber = custnumber: This ensures that only the customer with the matching 'customerNumber' is selected.
 
--------------------------------------------------------------
+-- -------------------------------------------------------------
 
 -- Step 6: Reset the DELIMITER back to semicolon (;)
 -- After defining the stored procedure, we need to reset the delimiter back to the default semicolon (;).
 DELIMITER ;
 
--------------------------------------------------------------
+-- -------------------------------------------------------------
 
 -- Step 7: Call the stored procedure to insert data for a specific customer
 -- Here, we call the stored procedure 'InserData' with the input parameter '112', which corresponds to a customerNumber.

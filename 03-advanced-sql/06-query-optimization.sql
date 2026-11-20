@@ -80,4 +80,4 @@ ON O.customerNumber = C.customerNumber;  -- Joining orders with customers using 
 -- IN retrieves and compares all values, which can be slower.
 -- This section suggests the use of EXISTS over IN for performance reasons.
 -- The exact query would depend on your use case, but the point is: prefer EXISTS for performance.
-EXISTS / IN  -- Prefer EXISTS over IN when checking for the existence of rows in a subquery
+-- EXISTS / IN  -- Prefer EXISTS over IN when checking for the existence of rows in a subquery
