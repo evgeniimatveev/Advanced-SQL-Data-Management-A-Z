@@ -1,0 +1,33 @@
+name: SQL run on MySQL 8.0 (manual)
+
+# Manual only: click "Run workflow" in the Actions tab. No push / PR / schedule triggers.
+# Loads the classicmodels sample database, then executes every script in course order.
+on:
+  workflow_dispatch:
+  push:
+    branches: [restructure/single-main-numbered-sections]   # TEMPORARY: to test before merge
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    services:
+      mysql:
+        image: mysql:8.0
+        env:
+          MYSQL_ROOT_PASSWORD: root
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping -h 127.0.0.1 -proot"
+          --health-interval=5s
+          --health-timeout=5s
+          --health-retries=20
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Run every script (see Job Summary for the table)
+        run: bash .github/scripts/run_sql.sh

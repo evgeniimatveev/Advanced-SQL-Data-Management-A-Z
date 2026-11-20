@@ -1,0 +1,38 @@
+name: SQL check
+
+# Static checks only (fast). The scripts are executed against a real MySQL 8.0 in sql-run.yml (manual).
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Repo hygiene
+        run: |
+          set -e
+          bad=$(git ls-files | grep -E ' ' || true)
+          if [ -n "$bad" ]; then echo "::error::Spaces in file names:"; echo "$bad"; exit 1; fi
+          for f in $(git ls-files '*.sql'); do
+            [ -s "$f" ] || { echo "::error file=$f::empty SQL file"; exit 1; }
+            iconv -f UTF-8 -t UTF-8 "$f" > /dev/null || { echo "::error file=$f::not valid UTF-8"; exit 1; }
+          done
+          paths=$(git grep -n -E '[A-Za-z]:[/\]Users|/Users/|/home/[a-z]+/' -- '*.sql' ':!data/classicmodels.sql' || true)
+          if [ -n "$paths" ]; then echo "::error::Absolute local paths found:"; echo "$paths"; exit 1; fi
+          echo "Checked $(git ls-files '*.sql' | wc -l) SQL files: names, encoding, absolute paths"
+
+      - name: Sample database is complete
+        run: |
+          test -s data/classicmodels.sql
+          for t in customers employees offices orderdetails orders payments productlines products; do
+            grep -q "CREATE TABLE \`$t\`" data/classicmodels.sql || { echo "::error::table $t missing in data/classicmodels.sql"; exit 1; }
+          done
+          echo "classicmodels.sql defines all 8 tables"
