@@ -4,8 +4,6 @@ name: SQL run on MySQL 8.0 (manual)
 # Loads the classicmodels sample database, then executes every script in course order.
 on:
   workflow_dispatch:
-  push:
-    branches: [restructure/single-main-numbered-sections]   # TEMPORARY: to test before merge
 
 permissions:
   contents: read
