@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="470" viewBox="0 0 980 470" role="img" aria-label="Cash coming in, month by month">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08192b"/><stop offset="0.6" stop-color="#0f3250"/><stop offset="1" stop-color="#14506f"/></linearGradient><linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#00c2e0" stop-opacity="0.55"/><stop offset="1" stop-color="#00c2e0" stop-opacity="0.02"/></linearGradient></defs>
+<rect width="980" height="470" rx="16" fill="url(#bg)"/>
+<text x="32" y="48" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Cash coming in, month by month</text>
+<text x="32" y="78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#9cc3d9">classicmodels payments: 273 payments, $8.85M, 2003-01 to 2005-06</text>
+<line x1="80" y1="395.0" x2="940" y2="395.0" stroke="#ffffff" stroke-opacity="0.12"/><text x="70" y="400.0" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9cc3d9">$0k</text>
+<line x1="80" y1="335.0" x2="940" y2="335.0" stroke="#ffffff" stroke-opacity="0.12"/><text x="70" y="340.0" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9cc3d9">$200k</text>
+<line x1="80" y1="275.0" x2="940" y2="275.0" stroke="#ffffff" stroke-opacity="0.12"/><text x="70" y="280.0" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9cc3d9">$400k</text>
+<line x1="80" y1="215.0" x2="940" y2="215.0" stroke="#ffffff" stroke-opacity="0.12"/><text x="70" y="220.0" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9cc3d9">$600k</text>
+<line x1="80" y1="155.0" x2="940" y2="155.0" stroke="#ffffff" stroke-opacity="0.12"/><text x="70" y="160.0" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9cc3d9">$800k</text>
+<path d="M80.0 387.1 L109.7 351.7 L139.3 335.1 L169.0 354.1 L198.6 347.0 L228.3 340.9 L257.9 347.5 L287.6 321.1 L317.2 346.6 L346.9 299.9 L376.6 186.7 L406.2 147.0 L435.9 324.8 L465.5 363.0 L495.2 273.6 L524.8 343.0 L554.5 332.4 L584.1 339.2 L613.8 309.7 L643.4 281.6 L673.1 252.1 L702.8 339.5 L732.4 137.8 L762.1 149.2 L791.7 353.8 L821.4 319.3 L851.0 279.4 L880.7 339.8 L910.3 313.3 L940.0 377.3 L940.0 395 L80.0 395 Z" fill="url(#area)"/>
+<path d="M80.0 387.1 L109.7 351.7 L139.3 335.1 L169.0 354.1 L198.6 347.0 L228.3 340.9 L257.9 347.5 L287.6 321.1 L317.2 346.6 L346.9 299.9 L376.6 186.7 L406.2 147.0 L435.9 324.8 L465.5 363.0 L495.2 273.6 L524.8 343.0 L554.5 332.4 L584.1 339.2 L613.8 309.7 L643.4 281.6 L673.1 252.1 L702.8 339.5 L732.4 137.8 L762.1 149.2 L791.7 353.8 L821.4 319.3 L851.0 279.4 L880.7 339.8 L910.3 313.3 L940.0 377.3" fill="none" stroke="#00d0f0" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="80.0" cy="387.1" r="3.5" fill="#00d0f0"/>
+<circle cx="109.7" cy="351.7" r="3.5" fill="#00d0f0"/>
+<circle cx="139.3" cy="335.1" r="3.5" fill="#00d0f0"/>
+<circle cx="169.0" cy="354.1" r="3.5" fill="#00d0f0"/>
+<circle cx="198.6" cy="347.0" r="3.5" fill="#00d0f0"/>
+<circle cx="228.3" cy="340.9" r="3.5" fill="#00d0f0"/>
+<circle cx="257.9" cy="347.5" r="3.5" fill="#00d0f0"/>
+<circle cx="287.6" cy="321.1" r="3.5" fill="#00d0f0"/>
+<circle cx="317.2" cy="346.6" r="3.5" fill="#00d0f0"/>
+<circle cx="346.9" cy="299.9" r="3.5" fill="#00d0f0"/>
+<circle cx="376.6" cy="186.7" r="3.5" fill="#00d0f0"/>
+<circle cx="406.2" cy="147.0" r="3.5" fill="#00d0f0"/>
+<circle cx="435.9" cy="324.8" r="3.5" fill="#00d0f0"/>
+<circle cx="465.5" cy="363.0" r="3.5" fill="#00d0f0"/>
+<circle cx="495.2" cy="273.6" r="3.5" fill="#00d0f0"/>
+<circle cx="524.8" cy="343.0" r="3.5" fill="#00d0f0"/>
+<circle cx="554.5" cy="332.4" r="3.5" fill="#00d0f0"/>
+<circle cx="584.1" cy="339.2" r="3.5" fill="#00d0f0"/>
+<circle cx="613.8" cy="309.7" r="3.5" fill="#00d0f0"/>
+<circle cx="643.4" cy="281.6" r="3.5" fill="#00d0f0"/>
+<circle cx="673.1" cy="252.1" r="3.5" fill="#00d0f0"/>
+<circle cx="702.8" cy="339.5" r="3.5" fill="#00d0f0"/>
+<circle cx="732.4" cy="137.8" r="7" fill="#ff9f1c"/>
+<circle cx="762.1" cy="149.2" r="3.5" fill="#00d0f0"/>
+<circle cx="791.7" cy="353.8" r="3.5" fill="#00d0f0"/>
+<circle cx="821.4" cy="319.3" r="3.5" fill="#00d0f0"/>
+<circle cx="851.0" cy="279.4" r="3.5" fill="#00d0f0"/>
+<circle cx="880.7" cy="339.8" r="3.5" fill="#00d0f0"/>
+<circle cx="910.3" cy="313.3" r="3.5" fill="#00d0f0"/>
+<circle cx="940.0" cy="377.3" r="3.5" fill="#00d0f0"/>
+<text x="722.4" y="123.8" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#ffb84d">peak 2004-11: $857k</text>
+<text x="80.0" y="419" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9cc3d9">2003-01</text>
+<text x="257.9" y="419" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9cc3d9">2003-07</text>
+<text x="435.9" y="419" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9cc3d9">2004-01</text>
+<text x="613.8" y="419" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9cc3d9">2004-07</text>
+<text x="791.7" y="419" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9cc3d9">2005-01</text>
+<text x="32" y="450" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#9cc3d9">Sum of payments.amount per month · computed from data/classicmodels.sql</text></svg>

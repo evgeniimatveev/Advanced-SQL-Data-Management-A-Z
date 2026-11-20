@@ -1,0 +1,30 @@
+name: SQL run on MySQL 8.0 (manual)
+
+# Manual only: click "Run workflow" in the Actions tab. No push / PR / schedule triggers.
+# Loads the classicmodels sample database, then executes every script in course order.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      # lower_case_table_names=1 is the MySQL Workbench / Windows default these scripts were written on
+      # (table names are case-insensitive there). It can only be set when the server is initialised.
+      - name: Start MySQL 8.0 (case-insensitive table names, like on Windows)
+        run: |
+          docker run -d --name mysql80 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql:8.0 --lower-case-table-names=1
+          for i in $(seq 1 60); do
+            docker exec mysql80 mysqladmin ping -h 127.0.0.1 -proot --silent 2>/dev/null && break
+            sleep 2
+          done
+          docker exec mysql80 mysql -proot -e "SELECT VERSION() AS version, @@lower_case_table_names AS lower_case_table_names" 2>/dev/null
+
+      - name: Run every script (see Job Summary for the table)
+        run: bash .github/scripts/run_sql.sh
