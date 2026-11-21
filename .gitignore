@@ -1,0 +1,15 @@
+# MySQL Workbench backups, logs
+*.mwb.bak
+*.mwb~
+*.log
+
+# local secrets: never commit credentials
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
